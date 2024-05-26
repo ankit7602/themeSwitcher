@@ -1,0 +1,10 @@
+.loading_wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .loading_text {
+        color: var(--colorprimary);
+    }
+}

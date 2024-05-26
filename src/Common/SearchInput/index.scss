@@ -1,0 +1,32 @@
+.search_box {
+    display: flex;
+    gap: 24px;
+    padding: 18px 0px;
+    box-shadow: 0px 2px 9px 0px #0000000E;
+    background: var(--colorsecondary);
+    width: 480px;
+
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.searchIcon {
+
+    padding-left: 32px;
+}
+
+.search_input {
+    border: none;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 100%;
+    padding-right: 32px;
+    background: var(--colorsecondary);
+
+    &:focus {
+        outline: none;
+    }
+}

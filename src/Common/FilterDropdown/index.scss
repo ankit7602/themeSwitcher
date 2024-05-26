@@ -1,0 +1,23 @@
+.filter_container {
+  width: 200px;
+  height: 56px;
+  background: var(--colorsecondary);
+  box-shadow: 0px 2px 9px 0px #0000000E;
+  padding: 18px 24px;
+  border: none;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+
+  color: var(--colorprimary);
+
+  option {
+
+    color: var(--colorprimary);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
